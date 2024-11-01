@@ -1,0 +1,56 @@
+.page-config-XELL .form-login{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    min-height: 80vh;
+}
+.page-config-XELL .btn-connect{
+	border: 0;
+	padding: 20px 60px;
+	border-radius: 35px;
+	background-image: linear-gradient(to left, #2f1071, #22cc8c);
+	cursor: pointer;
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+}
+.page-config-XELL .btn-connect:hover{
+    filter: brightness(0.9);
+}
+
+.page-config-XELL img.status{
+	width: min(100%,100px);  
+}
+.page-config-XELL .msg-status{
+	font-size: 20px;
+	font-weight: 700;
+}
+.page-config-XELL .msg-ok{
+	color:#22cc8c;
+}
+.page-config-XELL .msg-error{
+	color:#fc2f2f;
+}
+.page-config-XELL .form-disconnect{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.page-config-XELL .btn-disconnect{
+	border: 0;
+	padding: 20px 60px;
+	border-radius: 35px;
+	background-image: linear-gradient(to left, #fc3838, #cc2222);
+	cursor: pointer;
+	color: rgb(235, 235, 235);
+	font-size: 20px;
+	font-weight: 700;
+}
+.page-config-XELL .btn-disconnect:hover{
+    filter: brightness(0.9);
+}
